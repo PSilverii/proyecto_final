@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamos Elcar Ero</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="background__color">
+            <section class="container">
+                <div class="page__tittle">
+                    <h1>¡Pedí hoy tu prestamo!</h1>
+                </div>
+                <p class="page__subtittle">Hacete socio y conseguí menos intereses</p>
+                <section class="page__form">
+                    <form action="" class="form" id="formulario">
+                        <div class="form__center">
+                            <div class="form__group">
+                                <label class="form__label">Nombre</label>
+                                <input class="form__input" id="nombreUsuario" type="text" placeholder="Carla Jimenez">
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label">Cantidad a pedir</label>
+                                <input class="form__input" id="montoInput" placeholder="$10000,00">
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label">Cantidad de cuotas</label>
+                                <input class="form__input" id="cantidadCuotas" placeholder="3">
+                            </div>
+                            <div class="form__group">
+                                <label class="form__label">¿Iniciaste sesión?</label>
+                                <input class="form__input" type="text" id="logInInput" placeholder="Si/No">
+                            </div>
+                            <button class="btn" type="text" id="hacerPrestamo">Consultar intereses</button>
+                        </div>
+                    </form>
+                </section>
+                <section class="page__form" id="returnLogIn">
+
+                </section>
+                <section class="page__form" id="returnData">
+
+                </section>
+                <section class="page__form" id="returnDataStorage">
+
+                </section>
+            </section>
+        </div>
+    </main>
+    <script src="../scripts/prestamos.js"></script>
+    <script src="../scripts/storage.js"></script>
+</body>
+
+</html>
